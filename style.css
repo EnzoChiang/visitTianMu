@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Permanent+Marker&family=Playfair+Display:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F2EDE4;
+}
+
+/*header*/
+h1,
+h2,
+h3,
+figcaption {
+    font-family: 'Playfair Display', serif;
+    color: #7C6246;
+}
+
+p {
+    padding: 1%0%;
+    color: dimgrey;
+}
+
+figcaption {
+    font-weight: 700;
+}
+
+.caption {
+    font-size: 16pt;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #7C6246
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #f2ede4;
+    text-align: center;
+}
+
+
+header ul a {
+    padding: 1em 0.5em;
+    display: block;
+}
+
+
+header nav ul a:hover {
+    background-color: darkgray;
+}
+
+
+header nav {
+    box-sizing: border-box;
+    border: 1px solid #a2a2a2;
+    background-color: #958f7f;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    padding: 0% 2%;
+}
+
+.active {
+    font-weight: 600;
+    text-shadow: 1px 1px darkgray;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    justify-content: center;
+}
+
+.logo a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30pt;
+    color: #f2ede4;
+
+}
+
+/*hreo image*/
+#hero {
+    width: 100%;
+}
+
+/*breadcrumb*/
+.breadcrumb,
+.breadcrumb ul {
+    display: flex;
+    padding: 2px 1rem;
+    align-items: center;
+    font-size: 13pt;
+}
+
+.breadcrumb h2,
+.breadcrumb li {
+    font-size: 13pt;
+    font-weight: 400;
+}
+
+.breadcrumb ul {
+    list-style: none;
+    padding-left: 0.75em;
+}
+
+.breadcrumb li:not([aria-current])::after {
+    content: "/";
+    margin: 0 0.25em;
+}
+
+.breadcrumb li {
+    font-weight: 600;
+}
+
+.breadcrumb a {
+    color: #f2ede4;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+footer {
+    background-color: #958f7f;
+    color: #f2ede4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.aboutContainer {
+    margin: 10% 10%;
+}
+
+.tourContainer {
+    padding: 2% 0%5% 23%;
+    background-color: #EFE1CA;
+}
+
+.cateContainer {
+    background-color: #EFE1CA;
+    padding: 5%10%10%10%;
+}
+
+#about {
+    width: 80%;
+    margin: 5%0%0%0%;
+    border: 15px solid white;
+    border-radius: 4px;
+}
+
+.layoutImage {
+    width: 70%;
+    background-color: white;
+    margin-top: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside {
+    margin: 0% 0% 5% 0%;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 5%10%1%10%;
+    color: #7C6246;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.cardImage {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.card {
+    background: white;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin: 0%5%7%5%;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+.card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+    padding: 1.4em;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: bold;
+    color: #7C6246;
+}
+
+.card-content p {
+    font-size: 80%;
+}
+
+#tourTitle {
+    padding: 3% 0% 0% 23%;
+    background-color: #EFE1CA;
+    color: #7C6246;
+    font-size: 170%;
+
+}
+
+.horizontalCard {
+    background: white;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin: 0%5%7%5%;
+    padding: 1%;
+}
+
+.introContent {
+    margin: 5%;
+}
+
+.introImage {
+    width: 100%;
+}
+
+iframe {
+    width: 90%;
+
+
+}
+
+aside a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.tourList {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.otherTitle {
+    background-color: #EFE1CA;
+    padding: 5%5%0%10%
+}
+
+.introWord {
+    margin: 4%0%4%0%;
+}
+
+
+.aboutCarddown {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutImage {
+    border-radius: 50%;
+    width: 30vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aboutCard {
+    background: white;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    margin: 0%;
+    padding: 4%;
+}
+
+.aboutContent a {
+    color: darkgrey
+}
+
+.aboutAtt {
+    text-align: center;
+}
+
+.aboutAtt a {
+    text-align: center;
+}
+
+
+#aboutPageTitle {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 4%;
+    padding-top: 12%;
+}
+
+footer p {
+    color: #f2ede4;
+}
+
+/*destop version*/
+@media (min-width: 890px) {
+
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    header nav li {
+        display: inline-block;
+    }
+
+    header nav ul a {
+        display: inline-block;
+    }
+
+    .aboutContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 5%10%;
+    }
+
+    #about {
+        width: 80%;
+        margin: 0%;
+    }
+
+    #tourTitle {
+        padding: 3% 0% 0% 11.1%;
+        font-size: 200%;
+    }
+
+    .layoutImage {
+        width: 24vw;
+    }
+
+    .tourContainer {
+        display: flex;
+        padding: 2% 10%5% 10%;
+    }
+
+    .cateContainer {
+        display: flex;
+        padding: 0% 10%5% 10%;
+        flex-direction: row-reverse;
+    }
+
+    aside {
+        margin: 0% 1.5% 0% 1.5%;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 1%;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0%5%5%5%;
+    }
+
+    .card {
+        flex: 0 1 calc(25% - 1em);
+        margin: 0%;
+    }
+
+    .horizontalCard {
+        padding: 0%;
+    }
+
+    .horizontalCardup {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .horizontalCarddown {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .introContent {
+        margin: 3%;
+    }
+
+
+    iframe {
+        width: 30%;
+    }
+
+    .otherTitle {
+
+        padding: 5%5%1%11%
+    }
+
+    p {
+        line-height: 2vw;
+    }
+
+    .caption {
+        font-size: 1.8vw;
+
+    }
+
+    #historyImage {
+        padding-left: 23%;
+    }
+
+    .introWord {
+        margin: 0%;
+    }
+
+    .aboutCard {
+        margin: 0%15%7%15%;
+        padding: 4%;
+    }
+
+    #aboutImage {
+        width: 10vw;
+    }
+
+    #aboutPageTitle {
+        font-size: 28px;
+        padding-bottom: 1%;
+        padding-top: 3%;
+    }
+
+}
